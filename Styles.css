@@ -75,8 +75,10 @@ form {
     min-height: 420px;
     padding: 2rem 0;
     border-radius: 6px;
-    border: 1.5px solid black;
-    background-color: rgb(243, 244, 247);
+    border: 0px none black;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 /* Text before input text */
 label {
@@ -90,6 +92,9 @@ input{
     padding: 0 0 0 5px;
     width: 440px;
     height: 40px;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 input:placeholder-shown {
